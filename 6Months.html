@@ -191,10 +191,13 @@ h1 {
 <div id="notifications"></div>
 
 <script>
-/* Typing letter */
-const typedText = document.getElementById("typedText");
-    
-const letter = `
+document.addEventListener("DOMContentLoaded", function () {
+
+    const typedText = document.getElementById("typedText");
+    const photos = document.getElementById("photos");
+    const notifications = document.getElementById("notifications");
+
+    const letter = `
 My Love Prince,
 
 Six months.
@@ -274,4 +277,5 @@ setInterval(() => {
 
 </body>
 </html>
+
 
